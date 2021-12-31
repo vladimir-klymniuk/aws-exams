@@ -1,0 +1,5 @@
+aws_access_key = ""
+aws_secret_key = ""
+default_region = ""
+my_name        = ""
+private_key_path = "./keys/%your_private_key_path%"
