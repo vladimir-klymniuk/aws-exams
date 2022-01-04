@@ -43,7 +43,6 @@ Why, so? Let's get the short overview of following  services examples.
 
 `AWS Aurora` - is a relational database with MySQL and PostgreSQL compability. Aurora automatically allocates database storage space in 10-gigabyte increments, as needed, up to a maximum of 128 terabytes. Aurora offers automatic, six-way replication of those chunks across three Availability Zones for availability and fault-tolerance. Aurora MultiMaster allows creation of multiple read-write instances in an Aurora database across multiple Availability Zones, which enables uptime-sensitive applications to achive continuous write availability through instance failure.
 
-
 Сonclusion - Only AWS EC2 Instance is open for installation database inside.
 ```
 
@@ -144,9 +143,53 @@ On-premise infustructure is a CAPEX, couse we own that physical servers and maxi
 
     - Access to all checks in the Trusted Advisor
     - 24x7 access to Cloud Support forums
-    - AWS support forums
-    - Personal Health Dashboard
+    + AWS support forums
+    + Personal Health Dashboard
 
 
-AWS Personal Health Dashboard - 
+Trusted Advisor - checks available only for Business and Enterprise plans.
+
+24x7 access to Cloud Support forums - has limitation for amazon development plan, available on `Business hours` (08:00 AM to 06:00 PM) in the customer country and only for one account.
+
+AWS support forums - no information about that, looks like simple AWS forums.
+
+AWS Personal Health Dashboard - Dashboard with cusomized events from CloudWatch, aggregate issues in tickets, can be secured with IAM settings. Integrated with pagerduty, datadog, splunk> tools. Available for all plans.
+```
+
+```txt
+    8. You have a Hybrid IT architecture. Which of the
+    following can help create a secure connection between on-premise and AWS
+
+    + AWS Direct Connect
+    - AWS Virtual Private gateway
+    - AWS Virtual Private Connection
+    - AWS Virtual Private Cloud
+
+AWS Direct Connect - is a cloud service that links your network directly to AWS to deliver consistent, low-latency perfomance. With AWS Direct Connect, you pay only for what you use and there os no minimum fee.
+
+AWS Virtual Private gateway - Secured entry point in private network.
+AWS Virtual Private Connection - Resource of your private connection channel.
+
+ AWS Virtual Private Cloud - some termin that describe group of your instances, services, application inside the AWS platform.
+
+ If we are talking about AWS infrastracture services posiblilities for sure Direct Connect is the best choice. Using that services we create secured private channel for data transfer, but indeed VPN ipsec tunnel between SiteToSite point it also could be a solution..
+```
+
+```txt
+
+    9. You are planning on using the Autoscaling Service. What feature does Autoscaling provide to you to create a more scalable architectture.
+        + Scale up resources based on the demand
+        - Distribure traffic to miltiple resources in diffenerent regions 
+        - Distribute traffic to multiple resources in Availability zones
+        - Create a secure cloud architecture
+        - Create a secure cloud architecture
+```
+
+```txt
+    10. A company has many departments that use AWS(Amazon Web Service) resources. They need a way to segregate the costing aspect for each of these accounts. How can you accomplish this
+
+        - Create separate accounts for each department
+        - Create separate reports in the Cost Explorer
+        - Create separate VPC's for each department 
+        - Create separete users for each department
 ```
