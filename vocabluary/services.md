@@ -72,7 +72,6 @@ Available for all Support plans
 ```
 
 
-
 `VPN connections` - You can connect your Amazon VPC to remote networks and users using the following VPN connectivity options.
 ``` r   
     VPN connectivity option:
@@ -161,3 +160,10 @@ This feature allows you to copy network traffic from an elastic network interfac
 `AWS VPN` Extend your on-premises networks to the cloud and securely access them from anywhere.
 
 `Network address translation (NAT) gateway` Allow your VPC private subnet workloads to access the internetn while preventing the internet from iniating a connection with those instances.
+
+
+``` r
+`AWS WAF` - Web Application Firewall. Web application firewall that helps your web applications or APIs against common web exploits and bots that may affect availablity, compromise security, or consi,e excessive resources. AWS WAF gives you control over how traffic reaches your application by enabling you to create security riles that control bot traffic and block common attack patterns, such as SQL injection or cross-site scription. You can also customize rules that filter out specific traffic patterns. You can get started quickly using Managed RIles for AWS WAF, a pre-configured set of rules managed by AWS or AWS Marketplace Sellers to address issues like the OWASP Top 10 security risks and automated bots that consume excess resources, skew metrics, or can cause downtime. These rules are 
+
+You can deploy AWS WAF on Amazon CloudFront as part of your CDN solution, the Application Load Balancer that fronts your web server or origin servers running on EC2, Amazon API Gateway for your REST APIs, or AWS AppSync for your GraphQL APIs. With AWS WAF, you pay only for that you use and the pricing is based on how many rules you deploy and how many web requests your application receives.
+```
