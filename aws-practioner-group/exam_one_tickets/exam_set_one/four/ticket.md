@@ -11,12 +11,13 @@ Let's get overview of that services and their differens.
 
 `AWS X-Ray` helps developers analyze and debug production, distributed applications, such as those build using a microservices architecture. With X-Ray, you can understand how your application and it's underlying services are performing to identify and troubleshoot the root cause as they travel through you application, and shows a map of your apllications's underlying components. You can use X-Ray to analyze both applications in development and in production, from simple three-tier applications to complex microservices applications consisting of thousands of services.
 
-`AWS X-Ray` works with `Amazon EC2`, `Amazon EC2 Container Service(Amazon ECS)`, `AWS Lambda`, `Amazon SNS` and `AWS Elastic Beanstalk`. You can use X-Ray with applications written in Java, Node.js and .NET that are deployed on these services. 
+`AWS X-Ray` works with `Amazon EC2`, `Amazon EC2 Container Service (Amazon ECS)`, `AWS Lambda`, `Amazon SNS` and `AWS Elastic Beanstalk`. You can use X-Ray with applications written in Java, Node.js and .NET that are deployed on these services. 
 
-A trace repsesents a request to your application and may include multiple data points, such as for calls to other services and database access. The maximum siz of a trace is 500KB. Trace data is retained for 30 days from the time it is recorded at no additional cost.
+A trace repsesents a request to your application and may include multiple data points, such as for calls to other services and database access. The maximum size of a trace is 500KB. Trace data is retained for 30 days from the time it is recorded at no additional cost.
 
-`AWS CodeDeploy` | TODO: Deploy several types of nodejs applications that uses api (kust graphql), daemon applications (twitch bot).
-
+`AWS CodeDeploy` | TODO: Deploy several types of nodejs applications that uses old examples:
+    - api ( kust graphql)
+    - daemon applications (twitch bot)
 
 Integrated and automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and your on-premises servers.
 
