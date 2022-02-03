@@ -25,7 +25,7 @@ Interesting thing about pricing
 
 For CodeDeploy on EC2, Lambda, ECS: There is no additional charge for code deployments to Amazon EC2, AWS Lambda or Amazon ECS through AWS CodeDeploy.
 
-For CodeDeploy On-Premises: You pay $0.02 per on-premises instance update using AWS CodeDeploy. For example, a deployment to three instances equals three instance updats. You will only be charged if CodeDeploy performs an update to an instance. You will not be charged for any instances skipped during the deployment and S3 buckets resources.
+For CodeDeploy On-Premises: You pay $0.02 per on-premises instance update using AWS CodeDeploy. For example, a deployment to three instances equals three instance updates. You will only be charged if CodeDeploy performs an update to an instance. You will not be charged for any instances skipped during the deployment and S3 buckets resources.
 
 ```
 

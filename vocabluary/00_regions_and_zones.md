@@ -1,7 +1,9 @@
 # Regions and Zones
 
 ```
-    Amazon EC2 is hosted in multipe locations world-wide. These locations are composed of Regions, Availability Zones, Local Zones, AWS Outposts, and Wavelenght Zones. Each Region is a separate geographic area.
+    Amazon EC2 is hosted in multipe locations world-wide. 
+    These locations are composed of Regions, Availability Zones, Local Zones, AWS Outposts, and Wavelenght Zones. 
+    Each Region is a separate geographic area.
 ```
 
 ``` r
@@ -15,7 +17,7 @@
 ```
 
 ```
-    AWS operates state-of-the-art, highly available data centers. Although rare, failures can occur that affect the availability of instances that are in the same location. If you host all of your instances in a sinble location that is affected by a failure, none of your instances would be available.
+    AWS operates state-of-the-art, highly available data centers. Although rare, failures can occur that affect the availability of instances that are in the same location. If you host all of your instances in a single location that is affected by a failure, none of your instances would be available.
 ```
 
 ## Regions 
@@ -23,7 +25,7 @@
 ```
     Each Amazon EC2 Region is designed to be isolated from the other Amazon EC2 Regions. This achieves the greatest possible fault tolerance and stability.
 
-    When you view your resources, you see only the resources that are tied to the Region that you specified. This is because Regions are isolated from each other, and we don't automatically replicate resources across Regions.
+    When you view your resources, you see only the resources that are tired to the Region that you specified. This is because Regions are isolated from each other, and we don't automatically replicate resources across Regions.
 
     When you launch an instance, you must select an AMI that's in the same Region. If the AMI is in another Region, you can copy the AMI to the Region you're using. 
 ```
