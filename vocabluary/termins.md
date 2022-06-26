@@ -4,16 +4,27 @@
 
 ```r
 `Cross-platform software` (also multi-platform software or platform-independent software) is computer software that os designed to work in several computing platforms.
+
 ```
 
 ```r
 `Throughput` is the rate of production or the rate at which something is processed.
+`Проводимость / Пропускная способность` - размер производительности/пропускной способности чего либо.
 
-Hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. The values are usually used to index a fixed-size table called a hash table. Use of a hash function to index a hash function to index a hash table is called hashing or scatter storage addressing. (разбросанное хранилище)
+Hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. The values are usually used to index a fixed-size table called a hash table. Use of a hash function to index  a hash table is called hashing or scatter storage addressing. (разбросанное хранилище)
+
+Хэш функция это любая функция которая может быть использована для мапинга данных произвольного размера к фиксированому размеру значений. Значения возвращаемые хэш-функцией называются хэш значениями, хэш кодами, числами или просто хэшами. Значения которые обычно использованы как индекс, фиксированого размера называются хэш таблицей. Использование хэш функций для индексации хэш таблицы называется хэширование или рассеяная адресация памяти (разбросанное хранилище).
 ```
 
 ```r
-`Tree (graph theory)` In graph theory, a tree is an undirected graph in which any two vertices (вершины) are connected by exactly one path, or equivalently a connected acyclic undirected graph. A forest is an undirected graph in which any two vertices are connected by at most one path, or equivalently an acyclic undirected graph, or equivalently a disjoint union of trees.  
+`Tree (graph theory)` In graph theory, a tree is an undirected graph in which any two vertices (вершины) are connected by exactly one path, or equivalently a connected acyclic undirected graph. A forest is an undirected graph in which any two vertices are connected by at most one path, 
+or equivalently an acyclic undirected graph, or equivalently a disjoint union of trees.
+
+Теория графов. В теории графов, дерево - это неориентированный граф в котором любые две вершины соединены только одни путём, 
+или эквивалентны соединением ацикличным неориентированым графом. Лес - это ненаправленный граф который имеет две вершины 
+соединенными хотябы одним маршрутом или эквивалентно ацикличный неоринтированный граф, или э
+
+або еквівалентно ациклічний неорієнтований граф, або еквівалентно неперетинаний об'єднання дерев.
 ```
 
 ```r
@@ -44,10 +55,9 @@ https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Ac
 ```
 
 ```r
-`SOC` - Security operations center is a centralized unit that deals with security issues on an organizational and technical level. It comprises the three building blocks for managing and enhancing an organization's security posture: people, processes, and technology. A SOC within a building or facility is a central location from where staff supervises the site, using data processing technology. Typically, a SOC is equipped for access monitoting, and controlling of lighting, alarms, and vehivle barriers.
+    `SOC` - Security operations center is a centralized unit that deals with security issues on an organizational and technical level. It comprises the three building blocks for managing and enhancing an organization's security posture: people, processes, and technology. A SOC within a building or facility is a central location from where staff supervises the site, using data processing technology. Typically, a SOC is equipped for access monitoting, and controlling of lighting, alarms, and vehivle barriers.
 
-https://en.wikipedia.org/wiki/Security_operations_center
-
+    https://en.wikipedia.org/wiki/Security_operations_center
 ```
 
 `OPEX costs` - is an ongoing cost for running a product, business, or system. 
